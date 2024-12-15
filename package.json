@@ -1,0 +1,43 @@
+{
+  "name": "sistema_ventas",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "mon": "nodemon main/start.js --delay 1 --ignore src --ignore package.json --ignore frontend",
+    "run": "node main/start.js",
+    "init": "node main/init.js",
+    "test": "node main/test.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "2.4.0",
+    "chart.js": "4.4.3",
+    "cookie-parser": "1.4.6",
+    "crypto": "1.0.1",
+    "easy-table": "1.2.0",
+    "ejs": "3.1.10",
+    "express": "4.19.2",
+    "express-ejs-layouts": "2.5.1",
+    "express-session": "1.18.0",
+    "mysql2": "3.11.4",
+    "qrcode-terminal": "0.12.0",
+    "sharp": "0.33.5",
+    "socket.io": "4.8.1",
+    "systeminformation": "5.23.5",
+    "whatsapp-web.js": "1.25.0"
+  },
+  "devDependencies": {
+    "@types/chart.js": "2.9.41",
+    "@types/express": "5.0.0",
+    "@types/express-session": "1.18.0",
+    "@types/jquery": "3.5.31",
+    "@types/mysql": "2.15.26",
+    "@types/node": "22.7.9",
+    "@types/socket.io": "3.0.2",
+    "nodemon": "3.1.0"
+  }
+}

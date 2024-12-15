@@ -1,0 +1,16 @@
+node_modules
+jsconfig.json
+log
+.backup
+.vscode
+.cache
+.temp
+.vs
+src/resource/productos/normal/*
+!src/resource/productos/normal/.gitkeep
+src/resource/productos/small/*
+!src/resource/productos/small/.gitkeep
+src/resource/usuarios/normal/*
+!src/resource/usuarios/normal/.gitkeep
+src/resource/usuarios/small/*
+!src/resource/usuarios/small/.gitkeep
